@@ -4,10 +4,21 @@
  */
 package com.mycompany.helloworld;
 
+import java.util.Scanner;
+
 /**
  *
  * @author acer
  */
 public class InputSection {
-    
+        public static void main(String[] args)
+        {
+                 	Scanner sc = new Scanner(System.in);
+        String a = sc.nextLine();
+        int b = sc.nextInt();
+        System.out.println(
+            "In 15 years, age of " + a + " will be " + (b + 15)
+        );
+         
+        }
 }
