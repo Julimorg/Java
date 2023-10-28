@@ -8,6 +8,6 @@ package com.mycompany.helloworld;
  *
  * @author acer
  */
-public class CompareChar {
+public class Loop1 {
     
 }
