@@ -10,14 +10,15 @@ import java.util.Scanner;
  *
  * @author acer
  */
-public class Loop1 {
+public class Loop4 {
     public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-            
-                for( int i =1; i<=num; i++)
+		int a = sc.nextInt(), b = sc.nextInt();
+                int sum =0;
+                for(int i=a; i<=b;i++)
                 {
-                    System.out.println(i + "");
+                   sum = sum + i;
                 }
+                System.out.println(sum);
 	}
 }

@@ -4,20 +4,19 @@
  */
 package com.mycompany.helloworld;
 
-import java.util.Scanner;
-
 /**
  *
  * @author acer
  */
-public class Loop1 {
+public class Loop17 {
     public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-            
-                for( int i =1; i<=num; i++)
-                {
-                    System.out.println(i + "");
-                }
+	    int i = 1;
+	    do {
+	       if( i % 10 == 0)
+               {
+                   System.out.print(" " +i);
+               }
+               i++;
+	    } while (i <= 1000);
 	}
 }

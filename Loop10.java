@@ -10,14 +10,16 @@ import java.util.Scanner;
  *
  * @author acer
  */
-public class Loop1 {
+public class Loop10 {
     public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-            
-                for( int i =1; i<=num; i++)
-                {
-                    System.out.println(i + "");
-                }
+		int n = sc.nextInt();
+		while(n <= 100) {
+			if ( n % 2 == 0)
+            {
+                System.out.print(" " + n);
+            }
+               n++;
+		}
 	}
 }
